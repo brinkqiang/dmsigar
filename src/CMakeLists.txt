@@ -32,6 +32,7 @@ IF(CMAKE_SYSTEM_NAME STREQUAL "Linux")
   SET(SIGAR_SRC os/linux/linux_sigar.c)
 
   INCLUDE_DIRECTORIES(os/linux/)
+
 ENDIF(CMAKE_SYSTEM_NAME STREQUAL "Linux")
 
 ## macosx, freebsd

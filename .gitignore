@@ -39,6 +39,7 @@ config.sub*
 config.guess*
 bindings/java/${dist}
 bindings/python/build
+test-driver
 
 /bin/*
 /lib/*
